@@ -5,6 +5,7 @@ define('MAGPIE_CACHE_DIR', './magpie/cache/');
 
 require_once MAGPIE_DIR . 'rss_fetch.inc';
 
+//TODO: Make this load from an external file
 $rss[1] = "http://www.flickr.com/services/feeds/photos_public.gne?id=61143979@N00&format=rss_200";
 $rss[2] = "http://news.google.com/nwshp?tab=wn&topic=t&output=rss&ned=:ePkh8BM9ExLVElTyy8xLVfDMS85Q8EvMzClWMmCE24Vmfyrc_gyw_TCrAfDiDL4";
 
